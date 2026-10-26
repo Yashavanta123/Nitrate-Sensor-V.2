@@ -1,6 +1,32 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Nitrate[[:space:]]sensor[[:space:]]v.2-Back.3mf filter=lfs diff=lfs merge=lfs -text
+Nitrate[[:space:]]sensor[[:space:]]v.2-Bottom.3mf filter=lfs diff=lfs merge=lfs -text
+Nitrate[[:space:]]sensor[[:space:]]v.2-Cap.3mf filter=lfs diff=lfs merge=lfs -text
+Nitrate[[:space:]]sensor[[:space:]]v.2-Top.3mf filter=lfs diff=lfs merge=lfs -text
 *.stl filter=lfs diff=lfs merge=lfs -text
+**/*.3mf filter=lfs diff=lfs merge=lfs -text
+print_SL1/5_Sensor_boot_FLEX.stl filter=lfs diff=lfs merge=lfs -text
+print/3_Nose_collar.stl filter=lfs diff=lfs merge=lfs -text
+print_FDM_K1Max/2_Left_half.stl filter=lfs diff=lfs merge=lfs -text
+print/2_Bottom_shell.stl filter=lfs diff=lfs merge=lfs -text
+print/5_Screw_plug_back.stl filter=lfs diff=lfs merge=lfs -text
+print_FDM_K1Max/4_Nose_collar.stl filter=lfs diff=lfs merge=lfs -text
+print_FDM_K1Max/6_Sensor_boot_TPU.stl filter=lfs diff=lfs merge=lfs -text
+print_SL1/1_Top_shell.stl filter=lfs diff=lfs merge=lfs -text
+print_SL1/3_Nose_collar.stl filter=lfs diff=lfs merge=lfs -text
+print_SL1/4_Sample_cup.stl filter=lfs diff=lfs merge=lfs -text
+print/1_Top_shell.stl filter=lfs diff=lfs merge=lfs -text
+print/6_Screw_plug_front.stl filter=lfs diff=lfs merge=lfs -text
+print_FDM_K1Max/1_Right_half.stl filter=lfs diff=lfs merge=lfs -text
+print_FDM_K1Max/5_Sample_cup.stl filter=lfs diff=lfs merge=lfs -text
+print_SL1/2_Bottom_shell.stl filter=lfs diff=lfs merge=lfs -text
+print/4_Sample_cup.stl filter=lfs diff=lfs merge=lfs -text
+print_FDM_K1Max/3_Lid.stl filter=lfs diff=lfs merge=lfs -text
+**/*.step filter=lfs diff=lfs merge=lfs -text
+SmartController-Production.step filter=lfs diff=lfs merge=lfs -text
 *.3mf filter=lfs diff=lfs merge=lfs -text
 *.step filter=lfs diff=lfs merge=lfs -text
+Nitrate[[:space:]]Enclosure.FCStd filter=lfs diff=lfs merge=lfs -text
+Nitrate[[:space:]]sensor[[:space:]]v.2.FCStd filter=lfs diff=lfs merge=lfs -text
 *.FCStd filter=lfs diff=lfs merge=lfs -text
